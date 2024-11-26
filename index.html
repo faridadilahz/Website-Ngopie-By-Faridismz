@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Ngopie! By Faridism</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Ngopie!</div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <div class="navbar">
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#store">Store</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="hero" id="home">
+        <div data-aos="fade-up" class="hero-text">
+            <h1>Awali hari dengan Ngopie!</h1>
+            <p>Kopi jang diboeat dari benih kopi premium pilihan dari seloroeh Indonesia.</p>
+        </div>
+        <div data-aos="fade-up" class="hero-image">
+            <img src="img/8eba8bdc-21e5-4fd6-8eed-b871dae1ec1d.jfif" alt="Coffee Cup" />
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section data-aos="fade-up" class="about-section" id="about">
+        <h1 data-aos="fade-up">About Ngopie!</h1>
+        <div data-aos="fade-up" class="about-content">
+            <div class="about-image">
+                <img src="img/DALL·E 2024-11-17 21.42.10 - A modern coffee shop named 'Ngopie!' with a minimalist interior design in white and gray tones. The space features clean, sleek furniture, including w.webp" alt="Coffee Shop">
+            </div>
+            <div class="about-text">
+                <p>Didirikan pada tahun 1445 H, Ngopie! adalah startup kopi yang bersemangat yang bertujuan untuk menyeduh kopi spesial terbaik bagi pelanggan kami.</p>
+                <p>Memanfaatkan jaringan dan pengalaman kami, kami menggunakan teknologi terkini untuk peralatan dan campuran kacang kami. Bersumber langsung dari petani terpilih, biji kopi berkualitas tinggi diproses dan dipanggang hingga sempurna oleh tim ahli kami. Barista kami menyiapkan setiap cangkir dengan hati-hati dan penuh semangat, menghadirkan kebahagiaan di setiap tegukan.</p>
+            </div>
+        </div>
+    </section>
+
+        <!-- Menu Section -->
+        <section data-aos="fade-up" class="menu-section" id="menu">
+            <h1>Our Best Menus</h1>
+            <p>Temoekan berbagai minuman kopi kami jang terboeat dari biji kopi terbaik dan premium.</p>
+            <div class="menu-items">
+                <!-- Menu item 1 -->
+                <div data-aos="fade-up"
+                data-aos-duration="1000"class="menu-item">
+                    <img src="img/Hot Americ.jfif" alt="Hot Cappuccino">
+                    <h2>Hot Americano</h2>
+                    <p class="price">Rp 21.000</p>
+                    <p>Espresso shoot yang dicampur dengan segelas air meng-
+                        hadirkan rasa yang ideal.</p>
+                </div>
+                <!-- Menu item 2 -->
+                <div data-aos="fade-up"
+                data-aos-duration="1000" data-aos-delay="100" class="menu-item">
+                    <img src="img/Doule Shaken.jfif" alt="Double Iced Shaken Latte">
+                    <h2>Double Iced Latte</h2>
+                    <p class="price">Rp 33.000</p>
+                    <p>Paduan klasik 2 shot espresso dengan susu dan krim.</p>
+                </div>
+                <!-- Menu item 3 -->
+                <div data-aos="fade-up"
+                data-aos-duration="1000" data-aos-delay="200" class="menu-item">
+                    <img src="img/Iced Cafe.jfif" alt="Iced Café Latte">
+                    <h2>Iced Café Latte</h2>
+                    <p class="price">Rp 29.000</p>
+                    <p>Paduan espresso dengan susu sapi pilihan dan sedikit foam tanpa gula tambahan.</p>
+                </div>
+                <!-- Menu item 4 -->
+                <div data-aos="fade-up"
+                data-aos-duration="1000" data-aos-delay="300" class="menu-item">
+                    <img src="img/Hot Cafe.jfif" alt="Hot Café Latte">
+                    <h2>Hot Café Latte</h2>
+                    <p class="price">Rp 29.000</p>
+                    <p>Paduan espresso dengan susu sapi pilihan dan sedikit foam tanpa gula tambahan.</p>
+                </div>
+                <!-- Menu item 5 -->
+                <div data-aos="fade-up"
+                data-aos-duration="1000" data-aos-delay="400" class="menu-item">
+                    <img src="img/Hot Cappucino.jfif" alt="Hot Café Malt Latte">
+                    <h2>Hot Café Malt</h2>
+                    <p class="price">Rp 33.000</p>
+                    <p>Paduan latte dan sirup Irish yang menghasilkan aroma dan rasa lembut.</p>
+                </div>
+                <!-- Menu item 6 -->
+                <div data-aos="fade-up"
+                data-aos-duration="1000" data-aos-delay="500" class="menu-item">
+                    <img src="img/Hot Cappucino.jfif" alt="Hot Salted Caramel Mocha">
+                    <h2>Hot Caramel Mocha</h2>
+                    <p class="price">Rp 33.000</p>
+                    <p>Perpaduan coklat, latte dari house blend Ngopie!, dan gurihnya caramel.</p>
+                </div>
+                <!-- Menu item 7 -->
+                <div data-aos="fade-up"
+                data-aos-duration="1000" data-aos-delay="600" class="menu-item">
+                    <img src="img/Iced butter.jfif" alt="Iced Butterscotch Sea Salt Latte">
+                    <h2>Iced Butterscotch Latte</h2>
+                    <p class="price">Rp 33.000</p>
+                    <p>Perpaduan butterscotch dan espresso house blend dengan topping cream sea salt yang lembut di atasnya.</p>
+                </div>
+                <!-- Menu item 8 -->
+                <div data-aos="fade-up"
+                data-aos-duration="1000" data-aos-delay="700" class="menu-item">
+                    <img src="img/Americano.jfif" alt="Hot Espresso">
+                    <h2>Hot Espresso</h2>
+                    <p class="price">Rp 19.000</p>
+                    <p>Ekstrak biji kopi Arabika murni tanpa campuran.</p>
+                </div>           
+            </div>
+        </section>
+    
+        <section data-aos="fade-up"
+        data-aos-duration="1000" class="store-section" id="store">
+            <h1>Our Store</h1>
+            <p class="store-section p">Temoekan store kami jang ada di Kota Buitenzorg.</p>
+            <div data-aos="fade-up" class="store-container">
+              <div class="store-card">
+                <img src="img/DALL·E 2024-11-24 22.32.08 - A modern and elegant coffee outlet named 'Ngopie!' located inside a shopping mall, specifically designed in sleek white and gray tones. The interior f.webp" alt="A.H Nasution" class="store-image">
+                <h2 class="store-name">Bogor Trade Mall</h2>
+                <p class="store-address">Ngopie! - Jalan Ir. H. Juanda No. 68, Pabaton, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16124.</p>
+                <a href="https://maps.app.goo.gl/sz6qxnmisikDo4He6" class="store-link">See on Google Maps</a>
+                <p class="store-time">08:00 - 22:00</p>
+              </div>
+              <div class="store-card">
+                <img src="img/b2a9d0ad-74f2-4ae7-a988-09d2be837a33.jpeg" alt="Adam Malik" class="store-image">
+                <h2 class="store-name">Aeon Bogor</h2>
+                <p class="store-address">Ngopie! - Jl. MH. Thamrin No. 8, Sentul City, Kecamatan Babakan Madang, Kabupaten Bogor, Jawa Barat 16810.</p>
+                <a href="https://maps.app.goo.gl/iLPJR8TfZEfJPr6v8" class="store-link">See on Google Maps</a>
+                <p class="store-time">07:00 - 21:00</p>
+              </div>
+              <div class="store-card">
+                <img src="img/DALL·E 2024-11-24 22.38.26 - A modern and elegant coffee outlet named 'Ngopie!' located inside a shopping mall, specifically in Botani Square Bogor, designed in sleek white and gr.webp" alt="Adam Malik" class="store-image">
+                <h2 class="store-name">Botani Square Bogor</h2>
+                <p class="store-address">Ngopie! - Jalan Raya Pajajaran No. 8, Pabaton, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16128.</p>
+                <a href="https://maps.app.goo.gl/WvdE3FmQEiyXtCP99" class="store-link">See on Google Maps</a>
+                <p class="store-time">07:00 - 22:00</p>
+              </div>
+              <div class="store-card">
+                <img src="img/c392a3ba-1f63-438e-af98-19672c26dc8f.jpeg" alt="Adam Malik" class="store-image">
+                <h2 class="store-name">Ekalokasari Bogor</h2>
+                <p class="store-address">Ngopie! - Jl. H Adam Malik, Kel. Silalas, Kec. Medan Barat, Kota Medan, Sumatera Utara</p>
+                <a href="https://maps.app.goo.gl/1E7wVBqqmR8wrbMAA" class="store-link">See on Google Maps</a>
+                <p class="store-time">09:00 - 22:00</p>
+              </div>
+            </div>
+          </section>
+
+    
+    <!-- Footer Section -->
+     <section>
+<footer>
+    <div class="footer-container">
+        <!-- Footer Left Side (Customer Center) -->
+        <div class="footer-left">
+            <p>© 2023 Ngopie!, All Rights Reserved</p>
+            <div class="customer-center">
+                <h3>Customer Center</h3>
+                <p><strong>Aeon MALL Sentul Bogor</strong><br>
+                   Lantai 1 Suite 120 & 130 Jl. MH. Thamrin No. 8, <br>
+                   Sentul City, Kecamatan Babakan Madang, Kabupaten Bogor, Jawa Barat 16810.</p>
+                <p><strong>0812-3456-7890</strong></p>
+            </div>
+        </div>
+
+        <!-- Footer Right Side (Complaints Information) -->
+        <div class="footer-right">
+            <h3>Consumer Complaints Service Contact Information</h3>
+            <p><strong>Directorate General of Consumer Protection and Trade Compliance,</strong> Ministry of Trade of the Republic of Indonesia</p>
+            <p><strong>WhatsApp Ditjen PKTN:</strong> 0812-3456-7890</p>
+        </div>
+
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+            <a href="https://chat.whatsapp.com/EiDNYmF59FOJ4OYKBeZEyI" target="_blank">
+                <i class="fab fa-whatsapp"></i><span>WhatsApp</span>
+            </a>
+            <a href="https://www.instagram.com/ngopie.id?igsh=YWNzejE3eWNlMWpz" target="_blank">
+                <i class="fab fa-instagram"></i><span>Instagram</span>
+            </a>
+        </div>
+        
+    </div>
+</footer>
+     </section>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+</body>
+</html>
